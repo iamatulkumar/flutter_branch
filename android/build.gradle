@@ -41,4 +41,8 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'io.branch.sdk.android:library:4.+'
+    implementation 'com.google.firebase:firebase-appindexing:19.0.0'// App indexing
+    implementation 'com.google.android.gms:play-services-ads:9+' // GAID matching
+    implementation 'com.android.installreferrer:installreferrer:1.0'
 }
